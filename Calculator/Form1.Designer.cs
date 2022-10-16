@@ -48,6 +48,7 @@
             this.btnCong.TabIndex = 0;
             this.btnCong.Text = "Cộng";
             this.btnCong.UseVisualStyleBackColor = false;
+            this.btnCong.Click += new System.EventHandler(this.btnCong_Click);
             // 
             // label1
             // 
