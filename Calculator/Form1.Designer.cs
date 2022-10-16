@@ -35,6 +35,7 @@
             this.txtA = new System.Windows.Forms.TextBox();
             this.txtB = new System.Windows.Forms.TextBox();
             this.txtKetQua = new System.Windows.Forms.TextBox();
+            this.btnTru = new System.Windows.Forms.Button();
             this.SuspendLayout();
             // 
             // btnCong
@@ -104,12 +105,26 @@
             this.txtKetQua.Size = new System.Drawing.Size(184, 33);
             this.txtKetQua.TabIndex = 6;
             // 
+            // btnTru
+            // 
+            this.btnTru.BackColor = System.Drawing.Color.White;
+            this.btnTru.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
+            this.btnTru.ForeColor = System.Drawing.Color.Black;
+            this.btnTru.Location = new System.Drawing.Point(134, 172);
+            this.btnTru.Name = "btnTru";
+            this.btnTru.Size = new System.Drawing.Size(68, 38);
+            this.btnTru.TabIndex = 7;
+            this.btnTru.Text = "Trừ";
+            this.btnTru.UseVisualStyleBackColor = false;
+            this.btnTru.Click += new System.EventHandler(this.btnTru_Click);
+            // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(7F, 15F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.AutoSize = true;
             this.ClientSize = new System.Drawing.Size(344, 255);
+            this.Controls.Add(this.btnTru);
             this.Controls.Add(this.txtKetQua);
             this.Controls.Add(this.txtB);
             this.Controls.Add(this.txtA);
@@ -134,5 +149,6 @@
         private TextBox txtA;
         private TextBox txtB;
         private TextBox txtKetQua;
+        private Button btnTru;
     }
 }
