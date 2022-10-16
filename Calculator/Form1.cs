@@ -26,6 +26,5 @@ namespace Calculator
                 txtKetQua.Text = c.ToString();
             }
         }
-
     }
 }
